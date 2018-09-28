@@ -42,9 +42,10 @@ while (count<=100):
 	elif(count==93):
 		count=64
 		print("sorry the snake bites you")
-	elif(count==100):
-		print("congo u won the game")
 	elif(count>100):
-		count=100
-		print("congo u won the game")
+		print("u cant go beyond 100")
+		count=count-a
+	elif(count==100):
+		print("congrats u have won the game")
+
 
